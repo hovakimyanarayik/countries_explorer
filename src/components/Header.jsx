@@ -39,6 +39,8 @@ const Header = () => {
 
     useEffect(() => {
         document.body.setAttribute('data-theme', theme)
+
+        // eslint-disable-next-line
     }, [theme])
 
     return ( 

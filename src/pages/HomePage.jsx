@@ -13,10 +13,14 @@ const HomePage = ({setCountries, countries}) => {
     useEffect(() => {
         if(!countries.length)
       axios.get(ALL_COUNTRIES).then(({data}) => setCountries(data));
+
+        // eslint-disable-next-line
     }, [])
 
     useEffect(() => {
         handleSearch()
+
+        // eslint-disable-next-line
     }, [countries])
 
     const handleSearch = (search, region) => {

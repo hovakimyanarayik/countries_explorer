@@ -16,6 +16,8 @@ const Details = () => {
         axios.get(searchByCountry(name)).then(
             ({data}) => setCountry(data[0])
         )
+
+        // eslint-disable-next-line
     }, [name])
     return ( 
         <div>

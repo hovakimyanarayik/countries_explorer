@@ -107,6 +107,8 @@ const Info = (props) => {
 
             )
         }
+
+        // eslint-disable-next-line
     }, [borders])
 
     return ( 
