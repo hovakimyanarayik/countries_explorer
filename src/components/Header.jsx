@@ -54,7 +54,7 @@ const Header = () => {
                         ) : (
                             <IoMoonOutline size='14px' />
                         )}
-                        <span style={{marginLeft: '0.75rem'}}>{theme} theme</span> 
+                        <span style={{marginLeft: '0.75rem'}}>{theme === 'light' ? 'dark' : 'light'} theme</span> 
                     </ModeSwitcher>
                 </Wrapper>
             </Container>
